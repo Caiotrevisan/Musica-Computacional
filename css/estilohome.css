@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: gray;
+}
+
+a:visited{ 
+    text-decoration: none;
+    color:blue;
+}
+
+/* a:link {
+    background-color: gray;
+  }
+  
+  a:visited {
+    background-color: gray;
+  }
+  
+  a:hover {
+    background-color: gray;
+  }
+  
+  a:active {
+    background-color: red; */
+  
