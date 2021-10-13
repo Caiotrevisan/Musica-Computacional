@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" >
 </head>
@@ -10,12 +11,16 @@
 <body id="corpo">
 
     <form action="#" method="GET">
-        <table border=2px>
+        <table>
 
             <thead>
-                <tr colspan="2">Formulário para Contato</tr>
+                <tr colspan="2">
+                    <th>Formulário para Contato</th>
+                </tr>
             </thead>
 
+            <tbody>
+            
             <tr>
                 <td><label for="nome">Nome: </label><input id="nome" type="text" required autofocus> </td>
             </tr>
@@ -61,7 +66,7 @@
             <tr>
                 <td><input type="reset"> </td>
             </tr>
-
+            </tbody>
             <tfoot>
                 <tr>
                     <th colspan="2">Confira todas as informações antes de enviar.</th>

@@ -1,5 +1,7 @@
 body {
     background-color:aliceblue;
+    justify-content: center;
+    margin: auto;
 }
 
 main{
@@ -43,6 +45,13 @@ p {
 
 }
 
+table {
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+}
+
+
 a:visited { 
     text-decoration: none;
     color:blue;
@@ -75,17 +84,17 @@ ul {
     margin: auto;
     }
 
-    video {
+video {
     margin: auto;
     display: block;
 }
 
-.headerhome {
+h1.headerhome {
     width: 1200px;
     height: 200px;
-    float: top;
-    text-align: center;
+    position: center;
 }
+
 
 .nav1 {
     float: left;
@@ -100,6 +109,11 @@ ul {
 .nav3 {
     float: left;
     width: 33%;
+}
+
+.video {
+    display: block;
+    margin: auto; 
 }
 
 
@@ -117,3 +131,4 @@ body::after {
     position: fixed;
     z-index: -1;   
   }
+
