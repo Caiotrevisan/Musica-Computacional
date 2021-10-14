@@ -2,45 +2,49 @@ body {
     background-color:aliceblue;
     justify-content: center;
     margin: auto;
+    max-width: 90%;
 }
 
-main{
+main {
     display: block;
-    min-height: 200px;
 }
 
 footer{
-    display: block;
-    border-style:dotted;
+    margin: 20%;
+    max-width: 100%;
     float:unset;
+   
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
+    padding: 0.5em;
+    font-size: 4em;
+    max-width: 80%;
     color:black;
-    text-align: center;
+    margin: auto; 
+    text-align: center;   
 }
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 2.5em;
     text-align: center;
 }
 
 h3 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
 }
 
 p {
-    padding: 1cm;
-    font-size: 20px;
+    padding: 0.5em;
+    font-size: 1.2em;
     margin: auto;
-    min-width: 50%;
-    max-width: 60%;
-    text-indent:4em;
+    min-width: 3em;
+    max-width: 80% ;
+    text-indent: 1em;
     text-align: justify;
 
 }
@@ -61,40 +65,52 @@ a:visited {
 ul {
     display: inline-block;
     text-align: left;
-    font-size: 22px;
+    font-size: 1em;
     
 }
 
 .listas {
     text-align: center;
-    margin: 60px 60px 60px 60px;
+    margin: 1em 1em 1em 1em;
     width: 80%;
 }
 
 .fontebibliografica {
     font-size: x-large;
-    padding-bottom: 50px;
+    padding-bottom: 2em;
     font-style: italic;
 }
 
 #historiamidi {    
-    padding: 50px 0;
+    padding: 2em 0;
     max-width: 60%;
     min-width: 50%;
     margin: auto;
     }
 
-video {
+.video {
     margin: auto;
     display: block;
 }
 
+.imagem {
+    margin: auto;
+    display: block;
+    max-width: 60%;
+}
+
 h1.headerhome {
-    width: 1200px;
-    height: 200px;
+    /* width: 1200px; */
+    /* height: 200px; */
     position: center;
 }
 
+
+.nav {
+    margin: auto;
+    max-width: 100%;
+    
+}
 
 .nav1 {
     float: left;
@@ -111,9 +127,18 @@ h1.headerhome {
     width: 33%;
 }
 
+h3.contato {
+    margin: auto;
+    border-style:dotted;
+    display: inline-block;
+    min-width: 100%;
+    padding: 1em 1em 1em 1em;
+}
+
 .video {
     display: block;
-    margin: auto; 
+    margin: auto;
+    max-width: fit-content; 
 }
 
 
@@ -132,3 +157,21 @@ body::after {
     z-index: -1;   
   }
 
+ @media screen and (max-width:	480px)	{
+	.nav1, .nav2, .nav3 {
+        display: block;
+        padding: 0.5em;
+        float: none;
+        margin: auto;
+        text-align: center;
+	}
+    .navegue {
+        margin: auto;
+
+    }
+
+    footer {
+        border-style: none;
+    }
+
+}
